@@ -479,23 +479,23 @@
     });
   
     // Form submission
-    $("#submit-form").submit(function (e) {
-      e.preventDefault();
+    // $("#submit-form").submit(function (e) {
+    //   e.preventDefault();
   
-      $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbysNXH3xXCqYRRfgsUuD_iMph7XU2zRnjnzOD9hmq6Qs-Gmq23TPCsYz5o95AJs9Vvt/exec",
-        data: $("#submit-form").serialize(),
-        method: "post",
-        success: function (response) {
-          alert("Form submitted successfully");
-          window.location.reload();
-          window.location.href = "index.html";
-        },
-        error: function (err) {
-          alert("Something Error");
-        }
-      });
-    });
+    //   $.ajax({
+    //     url: "https://script.google.com/macros/s/AKfycbysNXH3xXCqYRRfgsUuD_iMph7XU2zRnjnzOD9hmq6Qs-Gmq23TPCsYz5o95AJs9Vvt/exec",
+    //     data: $("#submit-form").serialize(),
+    //     method: "post",
+    //     success: function (response) {
+    //       alert("Form submitted successfully");
+    //       window.location.reload();
+    //       window.location.href = "index.html";
+    //     },
+    //     error: function (err) {
+    //       alert("Something Error");
+    //     }
+    //   });
+    // });
   </script>
   
   
